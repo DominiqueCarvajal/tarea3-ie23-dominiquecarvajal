@@ -6,12 +6,15 @@ let image2;
 let image3;
 
 function setup() {
-  createCanvas(1000, 800);
+  createCanvas(windowWidth, windowHeight); // Establecer el tamaño del lienzo según el tamaño de la ventana del navegador
   background(200); // Fondo gris inicial
+
   // Carga una imagen de fondo
-  backgroundImage = loadImage('fondoms.png'); // Reemplaza 'narutofondo.jpg' con la ruta de tu imagen de fondo
+  backgroundImage = loadImage('fondoms.png'); // Reemplaza 'fondoms.png' con la ruta de tu imagen de fondo
+
   // Carga una imagen de timbre
-  timbreImage = loadImage('soldadms.gif'); // Reemplaza 'naruto.gif' con la ruta de tu imagen de timbre
+  timbreImage = loadImage('soldadms.gif'); // Reemplaza 'soldadms.gif' con la ruta de tu imagen de timbre
+
   // Carga las dos nuevas imágenes
   image1 = loadImage('zomsol.gif');
   image2 = loadImage('sanzom.gif');
