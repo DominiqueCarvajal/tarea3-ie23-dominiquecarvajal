@@ -6,7 +6,8 @@ let image2;
 let image3;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight); // Establecer el tamaño del lienzo según el tamaño de la ventana del navegador
+  // Establecer el tamaño del lienzo según el tamaño de la ventana del navegador
+  createCanvas(windowWidth, windowHeight);
   background(200); // Fondo gris inicial
 
   // Carga una imagen de fondo
