@@ -6,7 +6,7 @@ let image2;
 let image3;
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(1000, 800);
   background(200); // Fondo gris inicial
   // Carga una imagen de fondo
   backgroundImage = loadImage('fondoms.png'); // Reemplaza 'narutofondo.jpg' con la ruta de tu imagen de fondo
